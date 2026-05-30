@@ -224,9 +224,9 @@ function startSurprise(){
 
     document.getElementById("birthdayCard").classList.remove("hidden");
 
-    let music=document.getElementById("music");
+    const music = new Audio('birthday_song.mp3');
     
-    music.volume=.3;
+    music.volume = 0.3;
     
     music.play();
 
